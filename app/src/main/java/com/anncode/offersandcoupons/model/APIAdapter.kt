@@ -1,4 +1,4 @@
-package com.anncode.offersandcoupons
+package com.anncode.offersandcoupons.model
 
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
@@ -7,8 +7,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class APIAdapter {
 
-    val apiKey = "69d1837829128f9565368ca704c63207"
-    val urlApi = "http://feed.linkmydeals.com/"
+    val apiKey = "bc6706f85322f1eec25610ea8316a3cb"
+    val urlApi = "https://feed.linkmydeals.com/"
 
     fun getClientService(): ApiService {
         val authInterceptor = Interceptor { chain ->
